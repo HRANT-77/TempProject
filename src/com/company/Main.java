@@ -12,6 +12,8 @@ public class Main {
 
         mile.setDist(mileValue);
 
+        System.out.println("Barev erjankutyun es qez spasum ei");
+
         Converter converter = new Converter();
 
         Meter meter = converter.convertMilesToMeters(mile);
